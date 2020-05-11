@@ -1,0 +1,129 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color:lightcyan;
+}
+
+a:link {
+    text-decoration: none;
+}
+.navbar {
+    margin:0;
+    padding:0;
+}
+
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.navbar-list li {
+    float: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar-list li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+    font-size: min(2.6vw, 16px);
+}
+
+/* Change the link color to #111 (black) on hover */
+.navbar-list li a:hover {
+    background-color: #111;
+}
+
+.background {
+    height: 94.1vh;
+    background-image: url(../public/Nashville.jpg);
+    background-repeat: no-repeat;
+    background-color: grey;
+}
+
+.background p {
+    text-align: center;
+    margin: 0;
+    vertical-align: middle;
+    line-height: 100px;
+    font-size: max(20px, 5vw);
+    width: 100px;
+    color: white;
+}
+
+.intro-main {
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    padding-top: 35vh;
+    font-size: max(3vw, 30px);
+}
+
+.intro-header {
+    text-align: center;
+}
+
+.intro {
+    margin: 150px 15vw;
+    /* text-align: center; */
+}
+
+span {
+    display: float;
+}
+
+.intro-text {
+    width: 50vw;
+    min-height: 250px;
+    text-align: left;
+}
+.intro-text a {
+    text-decoration: none;
+    color: black;
+    font-weight: normal;
+}
+
+.intro-image {
+    width: 200px;
+    height: 250px;
+    float: left;
+    margin-right: 10px;
+    /* display: inline-block; */
+}
+#my-image {
+    width: 200px;
+    height: 200px;
+    /* mheight:; */
+    border-radius: 60%;
+    float: left;
+}
+
+.icons {
+    clear:both;
+    background-color:#adbdcd;
+    margin-top: 80px;
+    text-align: center;
+    padding: auto;
+}
+
+.icons-content {
+    text-align: center;
+}
+
+.icon {
+    margin: 1px 5px;
+}
+
+
+.footer {
+    text-align: center;
+    background-color: lightgray;
+    margin:0 0;
+    padding: 0 0;
+}
