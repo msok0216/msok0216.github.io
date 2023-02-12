@@ -48,6 +48,8 @@ a:link {
     background-image: url(../public/Nashville.jpg);
     background-repeat: no-repeat;
     background-color: grey;
+    background-position: center;
+    /* width: 300px; */
 }
 
 .background p {
